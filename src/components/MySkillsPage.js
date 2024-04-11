@@ -38,6 +38,10 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 
+@media screen and (max-width: 1200px) {
+    justify-content: space-evenly;
+  }
+
 &:hover{
     color: ${props => props.theme.body};
     background-color: ${props => props.theme.text};
@@ -130,13 +134,13 @@ I value business or brand for which i'm creating, thus i enjoy bringing new idea
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+Html, Css, Js, React, Bootstrap, Tailwind.
 </p>
 </Description>
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Github.
 </p>
 </Description>
 

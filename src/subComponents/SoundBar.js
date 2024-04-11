@@ -11,6 +11,11 @@ left:8rem;
 top:3rem;
 z-index:10;
 
+@media screen and (max-width: 1200px) {
+    left:2rem;
+top:35rem;
+  }
+
 &>*:nth-child(1){
     animation-delay: 0.2s;
 }

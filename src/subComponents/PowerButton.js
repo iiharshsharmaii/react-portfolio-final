@@ -35,6 +35,10 @@ cursor: pointer;
     text-decoration: none;
     color: inherit;
 }
+
+@media screen and (max-width: 1200px) {
+    position: absolute;
+  }
 `
 
 const PowerButton = () => {

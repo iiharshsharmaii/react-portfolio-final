@@ -36,10 +36,15 @@ padding-top: 10rem;
 `
 
 const Grid = styled.div`
-display: grid;
-grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
-grid-gap: calc(1rem + 2vw);
-`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
+  grid-gap: calc(1rem + 2vw);
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
 
 // Framer-motion config
 const container = {
@@ -91,7 +96,7 @@ const BlogPage = () => {
 </Grid>
 
 </Center>
-<BigTitle text="BLOG" top="5rem" left="5rem" />
+<BigTitle text="Exp" top="5rem" left="5rem" />
             </Container>
         </MainContainer>
     )

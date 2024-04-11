@@ -3,59 +3,59 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Home Rent Website",
+        description:"It is build on Figma and the clients wants the basic designs for the website for its rent house services.",
+        tags:["Figma","UI Design"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://www.figma.com/file/KQgQ4FzL5hFIJXdRzVaFpP/Rent-Home?type=design&node-id=1%3A2&mode=design&t=hkjF6ASUglTcIvQo-1",
+        github:"https://www.figma.com/file/KQgQ4FzL5hFIJXdRzVaFpP/Rent-Home?type=design&node-id=1%3A2&mode=design&t=hkjF6ASUglTcIvQo-1"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Art Gallery Website Design",
+        description:"This is a website design created for an art event so that the user can interact and see the website first before the visit.",
+        tags:["Figma","UI Design"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"https://www.figma.com/file/7LeLxEpjmMVdGdTLCm7PY1/Art-gallery?type=design&node-id=1%3A907&mode=design&t=PNN59OpuFpELa1td-1",
+        github:"https://www.figma.com/file/7LeLxEpjmMVdGdTLCm7PY1/Art-gallery?type=design&node-id=1%3A907&mode=design&t=PNN59OpuFpELa1td-1"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Dashboar Design",
+        description:"This is a Dashboard Design, it's a template how we can use or design a dashboard according to your usecase.",
+        tags:["Figma","UI Design"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://www.figma.com/file/0VwagZqrKS8LM3PXXT45yi/Dashboard-Design?type=design&node-id=1%3A105&mode=design&t=o1ehorYLMURjaPqK-1",
+        github:"https://www.figma.com/file/0VwagZqrKS8LM3PXXT45yi/Dashboard-Design?type=design&node-id=1%3A105&mode=design&t=o1ehorYLMURjaPqK-1"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Rider Event Scheduler",
+        description:"This is a mobile application for a rider who can organise and schedule an event.",
+        tags:["Figma","UI Design"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"https://www.figma.com/file/QhRt63jt2BKfzFeyTeRj5y/Rider-Event-Scheduler?type=design&node-id=1%3A49&mode=design&t=pIo5EkRg0NhxeDqN-1",
+        github:"https://www.figma.com/file/QhRt63jt2BKfzFeyTeRj5y/Rider-Event-Scheduler?type=design&node-id=1%3A49&mode=design&t=pIo5EkRg0NhxeDqN-1"
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"Wakaalert",
+        description:"This is an application used when you are in trouble. You can share your location with your guardian or your loved ones.",
+        tags:["Figma","UI Design"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"https://www.figma.com/file/DTJao6liRbnWf4nTs0SzKu/Waka-alert?type=design&node-id=1%3A17&mode=design&t=FZGEOyFCMnc4EBJT-1",
+        github:"https://www.figma.com/file/DTJao6liRbnWf4nTs0SzKu/Waka-alert?type=design&node-id=1%3A17&mode=design&t=FZGEOyFCMnc4EBJT-1"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Case study for Foodhub App",
+        description:"This is a case study for the food delivery application, I have solved the UI and UX problems in it.",
+        tags:["Figma","UI Design"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"https://www.figma.com/file/gRIt2mYiMkgWWXAwRsyBoV/Food-app-Restaurant?type=design&node-id=0%3A632&mode=design&t=yF5NueDbYvvm4Ape-1",
+        github:"https://www.figma.com/file/gRIt2mYiMkgWWXAwRsyBoV/Food-app-Restaurant?type=design&node-id=0%3A632&mode=design&t=yF5NueDbYvvm4Ape-1"
         
     },
     

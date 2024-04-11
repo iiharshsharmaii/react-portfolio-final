@@ -51,6 +51,8 @@ const Title = styled.h3`
 `;
 const HashTags = styled.div`
   padding: 0.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
 `;
 const Tag = styled.span`
   padding-right: 0.5rem;
@@ -79,7 +81,7 @@ const BlogComponent = (props) => {
   const { name, tags, date, imgSrc, link } = props.blog;
   return (
     <Container variants={Item}>
-      <Box target="_blank" href={`${link}`}>
+      <Box >
         <Image img={imgSrc} />
         <Title>{name}</Title>
         <HashTags>

@@ -6,20 +6,26 @@ import { DarkTheme } from '../components/Themes'
 
 
 const Logo = styled.h1`
-display: inline-block;
-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
-font-family: 'Pacifico',cursive;
+  display: inline-block;
+  color: ${(props) =>
+    props.color === "dark" ? DarkTheme.text : DarkTheme.body};
+  font-family: 'Pacifico', cursive;
 
-position: fixed;
-left: 2rem;
-top: 2rem;
-z-index:3;
-`
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  z-index: 3;
+
+  @media screen and (max-width: 1200px) {
+    position: absolute;
+  }
+`;
+
 
 const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
-          CB
+          VM
         </Logo>
     )
 }
